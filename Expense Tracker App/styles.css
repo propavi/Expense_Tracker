@@ -1,0 +1,133 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    width : 38rem;
+    height : 30rem;
+    border : 2px solid black;
+    display: flex;
+    flex-direction: row;
+
+}
+.segment1
+{
+    width : 50%;
+    height : 100%;
+    border-right: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    background-color: #282734;
+}
+.segment2
+{
+    width : 50%;
+    height : 100%;
+    border-left: 1px solid black;
+}
+
+.segment1-div1
+{
+  height:55%;
+
+}
+h5{
+    margin-top:6%;
+    margin-left:6%;
+    color:#FBCF07;
+}
+p{
+    margin-top: 6%;
+    margin-left: 6%;
+    font-size: smaller;
+    color:white;
+}
+h2{
+    margin-top : 6%;
+    margin-left : 6%;
+    color:white;
+}
+.two-box
+{
+    margin-top : 12%;
+    margin-left: 4%;
+    width : 92%;
+    height : 45%;
+    /*border: 1px solid black*/;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.income,.expense
+{
+    width : 42%;
+    height : 80%;
+    border-radius: 10%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.income{
+    color:white;
+    border-radius: 10%;
+}
+.expense{
+    color:red;
+    border-radius: 10%;;
+}
+.segment1-div2
+{
+    margin-top : 12%;
+    margin-left: 6%;
+    height : 45%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.textbox1,.textbox2,button
+{
+    width : 90%;
+    height:80%;
+    border : 1px solid white;
+}
+button{
+    padding:4%;
+    background-color: rgb(16, 119, 236);
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgb(16, 119, 236);
+    font-size: x-small;
+}
+.segment2
+{
+    overflow-y: scroll;
+}
+.segment2 h4,hr{
+    margin-top: 6%;
+    margin-left: 6%;
+}
+hr{
+    margin-top: 3%;
+}
+
+.segment2 .box{
+    font-weight: bold;
+    padding: 30px;
+}
+button:hover{
+    background-color: rgb(10, 95, 192);
+}

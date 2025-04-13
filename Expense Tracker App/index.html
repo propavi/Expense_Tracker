@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class = "container">
+        <div class="segment1">
+            <div class = "segment1-div1">
+                <h5>INCOME EXPENSE TRACKER</h5>
+                <p>Your balance</p>
+                <h2>Rs : 0000.00</h2>
+                <div class = "two-box">
+                    <div class="income" style="background-color: green;">
+                        <p style="color:white;font-weight: bold;">INCOME</p>
+                        <p style="color:white" id="incomep1">Rs : 0</p>
+                    </div>
+                    <div class = "expense" style = "background-color: #dc3545;">
+                        <p style="color:white;font-weight: bold";>EXPENSE</p>
+                        <p style="color: white" id="expensep2">Rs : 0</p>
+                    </div>
+                </div>
+            </div>
+            <div class = "segment1-div2">
+                <div class = "div11">
+                    <label for="description" style="color:white;font-size: small;">Description</label><br>
+                    <input type="text" class="textbox1" placeholder="Enter Description" id ="desc"></input>
+                </div>
+                <div class = "div11">
+                    <label for="Amount" style="color:white;font-size: small;">Amount</label><br>
+                    <input type="number" class="textbox2" placeholder="Enter Amount" id ="amnt"></input>
+                </div>
+                <div class = "div11">
+                    <button onclick="addTransaction()">ADD TRANSACTION</button>
+                </div>
+            </div>
+        </div>
+        <div class = "segment2">
+            <h4 style="font-weight: bold;">TRANSACTION DETAILS</h4>
+            <hr>
+            <div class="transaction-list">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
